@@ -1,0 +1,12 @@
+{
+    "name": "hyf/sample-framework",
+    "description": "a sample framework",
+    "autoload": {
+        "psr-4": {
+            "Hyf\\SampleFramework\\": "src/"
+        }
+    },
+    "require": {
+        "psr/container": "^1.0|^2.0"
+    }
+}
